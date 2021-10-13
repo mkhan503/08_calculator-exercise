@@ -10,6 +10,7 @@ const subtract = function(a,b) {
 	
 };
 
+//function that goes into the array method reduce i.e. what will happen to the data in the array
 const reducer = (total, next) => total + next;
 
 
@@ -37,7 +38,7 @@ const power = function(a,b) {
   return a ** b;
 	
 };
-
+// using recursion to calculate factorial.
 const factorial = function(a) {
   if (a === 0){
     return 1;
